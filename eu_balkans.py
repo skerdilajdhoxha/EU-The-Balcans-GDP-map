@@ -52,7 +52,7 @@ for i, j in zip(avg_gdp, coordinates):
                                          fill_opacity=0.9))
 
 
-data_eu = pd.read_csv("eu_and_balcan.csv")
+data_eu = pd.read_csv("GDP_2016.csv")
 
 country = list(data_eu["Country"])
 lat = list(data_eu["latitude"])
